@@ -1,0 +1,105 @@
+.bokeh {
+  background: rgba(0,0,0,0.75);
+  font-family: inherit;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgba(255,255,255,0.9);
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 10000;
+  transform: translateY(100%);
+  visibility: hidden;
+}
+
+.bokeh,
+.bokeh-blur {
+  transition:
+    -webkit-filter 400ms ease,
+    visibility 800ms,
+    transform 400ms ease, filter 400ms ease,
+    visibility 800ms,
+    transform 400ms ease;
+}
+
+.bokeh-blur.has-blur {
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+
+.bokeh.is-visible {
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.bokeh > img {
+  margin: auto;
+  max-height: 80vh;
+  max-width: 80vw;
+  z-index: 10001;
+  box-shadow: 0 5px 25px -5px rgba(0,0,0,0.5);
+}
+
+.bokeh > img.is-active {display: block}
+
+.bokeh__tabs {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  width: 100vw;
+  z-index: 10002;
+}
+
+.bokeh__tabs > li {
+  display: inline-block;
+  z-index: 10003;
+  border-radius: 50%;
+  margin: 8px;
+  margin: 0.5rem;
+}
+
+.bokeh__tabs > li:hover,
+.bokeh__close:hover {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.bokeh__tabs > li.is-active {
+  background: rgba(255,255,255,0.9);
+  color: rgba(0,0,0,0.75);
+}
+
+.bokeh__close {
+  cursor: pointer;
+  bottom: 0; left: 0; right: 0;
+  z-index: 10003;
+  font-family: proxima-nova, sans-serif;
+}
+
+.bokeh__close,
+.bokeh__tabs,
+.bokeh__tabs li {
+  height: 48px;
+  height: 3rem;
+  line-height: 48px;
+  line-height: 3rem;
+  text-align: center;
+  transition: 200ms ease;
+}
+
+.bokeh__tabs li {
+  width: 48px;
+  width: 3rem;
+  cursor: pointer;
+}
+
+.bokeh > img {
+  top: 0; left: 0; right: 0; bottom: 0;
+  display: none;
+}
+
+.bokeh > img,
+.bokeh__close {
+  position: absolute;
+}
