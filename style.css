@@ -5,7 +5,7 @@
   line-height: 2em;
   letter-spacing: 0.7em;
   color: black;
-  text-align:justify;
+  text-align: justify;
   background-image: url('images/BP.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -27,7 +27,6 @@
   padding-top: 100px;
   padding-left: 100px;
   color: black;
-  background-image: url('images/profile.jpg');
   font-family: proxima-nova, sans-serif; 
 }
 h1 {
