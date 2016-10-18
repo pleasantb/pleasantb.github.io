@@ -31,6 +31,8 @@
 }
 .skills {
   list-style-type: none;
+  font-style: italic;
+  font-family: proxima-nova, sans-serif;
 }
 h1 {
   font-size: 25px;
@@ -73,5 +75,5 @@ a {
   font-family: proxima-nova, sans-serif;
 }
 body {
-  background-color: #fff; // this is short-hand for the color white, it's the same as #ffffff (six f's)
+  background-color: #fff; 
 }
