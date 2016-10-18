@@ -11,6 +11,9 @@
   background-size: contain;
   margin: 15%;
 }
+.word:hover {
+  cursor: default;
+}
 .nav {
   letter-spacing: 0.7em;
   text-decoration: none;
@@ -20,32 +23,45 @@
 .nav:hover{
   color: #FF8C00;
 }
-.about {
+.about{
   padding-top: 100px;
   padding-left: 100px;
-  font-family: proxima-nova, sans-serif;
-  text-decoration: none;
   color: black;
-  text-align:justify;
+  background-image: url('images/profile.jpg');
+  font-family: proxima-nova, sans-serif; 
 }
 .about h1 {
-  font-size: 18px;
+  font-size: 20px;
   font-family: proxima-nova, sans-serif;
   text-decoration: none;
   color: black;
   text-align:justify;
 } 
 .about h2 {
-  font-size: 12px;
+  font-size: 18px;
   font-family: proxima-nova, sans-serif;
   text-decoration: none;
   color: black;
   text-align:justify;
 }
-
+.about h3 {
+  font-size: 16px;
+  font-family: proxima-nova, sans-serif;
+  text-decoration: none;
+  color: black;
+  text-align:justify;
+}
+.about p {
+  font-size: 14px;
+  font-family: proxima-nova, sans-serif;
+  text-decoration: none;
+  color: black;
+  text-align:justify;
+}
 a {
   color: black;
   text-decoration: none;
+  font-family: proxima-nova, sans-serif;
 }
 body {
   background-color: #fff; // this is short-hand for the color white, it's the same as #ffffff (six f's)
