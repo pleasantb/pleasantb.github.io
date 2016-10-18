@@ -1,6 +1,6 @@
 .bokeh {
   background: rgba(0,0,0,0.75);
-  font-family: inherit;
+  font-family: proxima-nova, sans-serif;
   font-size: 16px;
   font-size: 1rem;
   font-weight: bold;
@@ -50,6 +50,7 @@
   width: 100%;
   width: 100vw;
   z-index: 10002;
+ 
 }
 
 .bokeh__tabs > li {
@@ -58,6 +59,8 @@
   border-radius: 50%;
   margin: 8px;
   margin: 0.5rem;
+ 
+  
 }
 
 .bokeh__tabs > li:hover,
@@ -68,13 +71,14 @@
 .bokeh__tabs > li.is-active {
   background: rgba(255,255,255,0.9);
   color: rgba(0,0,0,0.75);
+  
 }
 
 .bokeh__close {
   cursor: pointer;
   bottom: 0; left: 0; right: 0;
   z-index: 10003;
-  font-family: proxima-nova, sans-serif;
+  
 }
 
 .bokeh__close,
@@ -92,6 +96,7 @@
   width: 48px;
   width: 3rem;
   cursor: pointer;
+  
 }
 
 .bokeh > img {
