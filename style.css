@@ -1,12 +1,12 @@
 #word-search {
   padding-top: 100px;
-  padding-left: 100px;
+  padding-left: 200px;
   font-family: proxima-nova, sans-serif;
   line-height: 2em;
   letter-spacing: 0.7em;
   color: black;
   text-align:justify;
-  background-image: url('images/bp.png');
+  background-image: url('images/BP.png');
   background-repeat: no-repeat;
   background-size: contain;
   margin: 15%;
@@ -30,28 +30,28 @@
   background-image: url('images/profile.jpg');
   font-family: proxima-nova, sans-serif; 
 }
-.about h1 {
+h1 {
   font-size: 20px;
   font-family: proxima-nova, sans-serif;
   text-decoration: none;
   color: black;
   text-align:justify;
 } 
-.about h2 {
+h2 {
   font-size: 18px;
   font-family: proxima-nova, sans-serif;
   text-decoration: none;
   color: black;
   text-align:justify;
 }
-.about h3 {
+h3 {
   font-size: 16px;
   font-family: proxima-nova, sans-serif;
   text-decoration: none;
   color: black;
   text-align:justify;
 }
-.about p {
+p {
   font-size: 14px;
   font-family: proxima-nova, sans-serif;
   text-decoration: none;
