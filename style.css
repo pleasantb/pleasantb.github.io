@@ -30,35 +30,35 @@
   font-family: proxima-nova, sans-serif; 
 }
 h1 {
-  font-size: 20px;
+  font-size: 25px;
   font-family: proxima-nova, sans-serif;
   text-decoration: none;
   color: black;
   text-align:justify;
 } 
 h2 {
-  font-size: 18px;
+  font-size: 20px;
   font-family: proxima-nova, sans-serif;
   text-decoration: none;
   color: black;
   text-align:justify;
 }
 h3 {
-  font-size: 16px;
+  font-size: 18px;
   font-family: proxima-nova, sans-serif;
   text-decoration: none;
   color: black;
   text-align:justify;
 }
 h4 {
-  font-size: 16px;
+  font-size: 14px;
   font-family: proxima-nova, sans-serif;
   text-decoration: none;
   color: black;
   text-align:justify;
 }
 p {
-  font-size: 14px;
+  font-size: 16px;
   font-family: proxima-nova, sans-serif;
   text-decoration: none;
   color: black;
