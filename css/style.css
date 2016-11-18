@@ -1,0 +1,10 @@
+.header {
+  font-family: proxima-nova, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:  #A8A8A8;
+}
+.header:hover{
+  text-decoration: none;
+  color: #686868;
+}
